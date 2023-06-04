@@ -48,6 +48,7 @@ $$
 \end{align}
 $$
 
+Note that here $|p \rangle$ and $|q \rangle$ are two qubit states so you will need to perform the swap test on a pair of 2 qubit registers. Therefore the circuit  will involve 5 qubits in total if we add the single measurement qubit.
 
 5. Write a pytket [CustomPass](https://cqcl.github.io/pytket/manual/manual_compiler.html#user-defined-passes) that iterates through a `Circuit` and eliminates parameterised gates with small angles. Can you make a method where we can set a threshold for a gate to be eliminated?
 
