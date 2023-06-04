@@ -31,7 +31,7 @@ $$
 
 <center><img src='swap_circ.png'></center>
 
-The probability of measuring the qubit $a$ in the state $| 0 \rangle$ is related to the value of the inner product as follows 
+If we measure qubit $a$ the probability measuring the state $| 0 \rangle$ state is related to the value of the inner product as follows 
 
 $$
 \begin{equation}
@@ -52,12 +52,10 @@ $$
 \end{equation}
 $$
 
-5. Try to run the Grover's algorithm notebook using a backend which models noise.
-For instance you could use the `AerBackend` with a qiskit `NoiseModel` or the `IBMQEmulatorBackend`.
 
-6. Write a pytket [CustomPass](https://cqcl.github.io/pytket/manual/manual_compiler.html#user-defined-passes) that iterates through a `Circuit` and eliminates parameterised gates with small angles. Can you make a method where we can set a threshold for a gate to be eliminated?
+5. Write a pytket [CustomPass](https://cqcl.github.io/pytket/manual/manual_compiler.html#user-defined-passes) that iterates through a `Circuit` and eliminates parameterised gates with small angles. Can you make a method where we can set a threshold for a gate to be eliminated?
 
-7. (BONUS) Write your `Backend` that can run simulations of a pytket `Circuit` for a gateset of your choice. You can use this [notebook tutorial](https://github.com/CQCL/pytket/blob/main/examples/creating_backends.ipynb) as a guide.
+6. (BONUS) Write your `Backend` that can run simulations of a pytket `Circuit` for a gateset of your choice. You can use this [notebook tutorial](https://github.com/CQCL/pytket/blob/main/examples/creating_backends.ipynb) as a guide.
 
 
 
