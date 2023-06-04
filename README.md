@@ -9,6 +9,10 @@ cd notebook_squid
 pip install -r requirements.txt
 ```
 
+Note you will also need to install jupyter notebook/ jupyter lab in your local environment in order to run the notebook file.
+
+https://jupyter.org/install
+
 ## Useful links to pytket documentation
 
 * [API documentation](https://cqcl.github.io/tket/pytket/api/#) 
