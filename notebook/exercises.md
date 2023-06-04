@@ -42,14 +42,10 @@ $$
  Use the `AerBackend` to calculate the inner product $\langle p | q\rangle$  of the states $|p \rangle$ and $|q \rangle$ (defined below). How does your answer change when the number of shots is increased?
  
 $$
-\begin{equation}
-|p \rangle = \frac{1}{\sqrt{2}} \big( |00\rangle - i |11\rangle \big)
-\end{equation}
-$$
-$$
-\begin{equation}
-|q \rangle = \frac{1}{\sqrt{2}} \big( |01\rangle - |10\rangle \big)
-\end{equation}
+\begin{align}
+|p \rangle &= \frac{1}{\sqrt{2}} \big( |00\rangle - i |11\rangle \big) \\
+|q \rangle &= \frac{1}{\sqrt{2}} \big( |01\rangle - |10\rangle \big)
+\end{align}
 $$
 
 
