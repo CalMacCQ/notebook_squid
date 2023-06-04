@@ -39,7 +39,7 @@ P \big(a=|0\rangle \big) = \frac{1}{2}\big( 1 + |\langle p | q\rangle|^{2} \big)
 \end{equation}
 $$
 
- Use the `AerBackend` to calculate the inner product $ \langle p | q\rangle$  of the states $|p \rangle $ and $|q \rangle$ (defined below). How does your answer change when the number of shots is increased?
+ Use the `AerBackend` to calculate the inner product $\langle p | q\rangle$  of the states $|p \rangle$ and $|q \rangle$ (defined below). How does your answer change when the number of shots is increased?
  
 $$
 \begin{equation}
